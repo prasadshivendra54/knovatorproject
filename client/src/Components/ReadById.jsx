@@ -13,7 +13,7 @@ const ReadById = () => {
 
   const getData = async () => {
     try {
-      const response = await fetch(`http://localhost:2000/api/jobs/${id}`);
+      const response = await fetch(`https://knovator-backend-9cjh.onrender.com/api/jobs/${id}`);
       const data = await response?.json();
       console.log(data);
 
