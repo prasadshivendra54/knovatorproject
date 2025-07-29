@@ -19,7 +19,7 @@ const Create = () => {
 
     const addJob = { title, company, location, type, description };
 
-    const response = await fetch("http://localhost:2000/api/jobs", {
+    const response = await fetch("https://knovator-backend-9cjh.onrender.com/api/jobs", {
       method: "POST",
       body: JSON.stringify(addJob),
       headers: {
