@@ -8,7 +8,7 @@ const Read = () => {
 
   // Read or Get Data Function
   const getData = async () => {
-    const response = await fetch("http://localhost:2000/api/jobs");
+    const response = await fetch("https://knovator-backend-9cjh.onrender.com/api/jobs");
     const data = await response.json();
 
     if (!response.ok) {
