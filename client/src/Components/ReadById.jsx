@@ -62,7 +62,7 @@ const ReadById = () => {
       <div className="py-6">
             <a
               href="/"
-              className="inline-flex items-center px-6 py-2 text-sm font-medium text-center text-white bg-[#0284c7] rounded-sm"
+              className="inline-flex items-center px-6 py-2 text-sm font-medium text-center text-white bg-[#0284c7] hover:bg-[#0ea5e9] rounded-sm"
             >
               <div className="pr-2">
                 <IoReturnDownBack />

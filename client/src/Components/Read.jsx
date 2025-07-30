@@ -80,7 +80,7 @@ const Read = () => {
                 </p>
                 <a
                   href={`/job/${e._id}`}
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#0284c7] rounded-sm"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#0284c7] hover:bg-[#0ea5e9] rounded-sm"
                 >
                   Read more
                   <div className="pl-2">
