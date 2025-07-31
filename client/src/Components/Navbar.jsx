@@ -12,11 +12,9 @@ const Navbar = () => {
                             </span>
                         </Link>
                     </div>
-                    <div className="gap-6 flex font-[200] text-[#f8fafc]">
-                        <div className="bg-[#0284c7] hover:bg-[#0ea5e9] p-3">
-                            <Link to='/add-job'>Job Post</Link>
-                        </div>
-                    </div>
+                    <Link to='/add-job' className="gap-6 flex font-[200] text-[#f8fafc] bg-[#0284c7] hover:bg-[#0ea5e9] p-3">
+                        Job Post
+                    </Link>
                 </div>
         </div>
       )

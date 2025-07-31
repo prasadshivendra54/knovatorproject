@@ -109,7 +109,7 @@ const ReadById = () => {
                         hour12: true,
                       })}
                     </p>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    <p className="whitespace-pre-line mb-3 font-normal text-gray-700 dark:text-gray-400">
                       Job description - {detail.description}
                     </p>
                   </div>

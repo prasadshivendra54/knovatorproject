@@ -96,9 +96,9 @@ const Read = () => {
           </div>
         </div>
       ) : (
-        <div class="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
+        <div className="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
           <svg
-            class="w-16 h-16 animate-spin text-[#0284c7]"
+            className="w-16 h-16 animate-spin text-[#0284c7]"
             viewBox="0 0 64 64"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ const Read = () => {
               stroke-width="5"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="text-gray-900"
+              className="text-gray-900"
             ></path>
           </svg>
           <br />

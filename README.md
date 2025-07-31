@@ -1,4 +1,5 @@
-##### 🧿 README File Not Updated (Please wait)
+## 🔗 Click here to view the live app 👇
+🌐 Live Demo - https://knovator-frontend.onrender.com/
 
 # 🧿 Mini Job Board Application
 
@@ -7,13 +8,9 @@ This is a full-stack job board web app built using ReactJS, NodeJS, Express, and
 ## 📁 Project Structure
 
 job-board-app/
-├── client/ # Frontend (React)
-├── server/ # Backend (NodeJS + Express)
-└── README.md # Project Overview & Setup Instructions
-
-yaml
-Copy
-Edit
+client/ # Frontend (React)
+server/ # Backend (NodeJS + Express)
+README.md # Project Overview & Setup Instructions
 
 ---
 
@@ -44,18 +41,17 @@ Edit
   createdAt: { type: Date, default: Date.now }
 }
 🧪 Bonus Functionalities (if implemented)
-Search by title or location (on homepage).
 
 Loading spinner on data fetch.
 
-Deployed version using Netlify / Render / Vercel.
+Deployed version using Render
 
 MongoDB hosted on MongoDB Atlas.
 
 Form validations on client and server side.
 
 📦 Tech Stack
-Frontend: ReactJS, JavaScript, CSS
+Frontend: ReactJS, JavaScript, Tailwind CSS
 
 Backend: NodeJS, ExpressJS
 
@@ -67,47 +63,29 @@ Node.js (v16+)
 
 MongoDB (Local or Atlas)
 
-npm / yarn
+npm
 
 🔧 Setup Instructions
 1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/job-board-app.git
-cd job-board-app
-2. Start the Backend
-bash
-Copy
-Edit
+git clone https://github.com/prasadshivendra54/knovatorproject.git
+cd knovatorproject
+2. Start the backend
 cd server
 npm install
-npm start
+npm start (No nedded for run backend, backend deployed on render, you can run only frontend)
 3. Start the Frontend
-bash
-Copy
-Edit
-cd ../client
+cd client
 npm install
 npm start
-🌐 Live Demo (if deployed)
-🔗 Click here to view the live app
+
+🌐 Live Demo https://knovator-frontend.onrender.com/
+🔗 Click here to view the live app 👆
 
 📩 Contact
-For any queries, suggestions or feedback, feel free to reach out.
+For any queries, suggestions or feedback, feel free to reach out 👇
+Email - tshivendra07@gmail.com
 
 📌 Author
-Developed by [Your Full Name]
-
-pgsql
-Copy
-Edit
+Developed by Shivendra kacher
 
 ---
-
-### 🛠️ Notes
-- Replace `https://github.com/your-username/job-board-app.git` with your GitHub repo URL.
-- Replace `https://your-deployment-url.com` if you deployed it (Netlify, Vercel, Render, etc).
-- Update `[Your Full Name]` with your actual name.
-
-Would you like me to help you write the `package.json` or `.env` setup part as well?
