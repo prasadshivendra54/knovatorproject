@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 
 import Routing from "../src/Routes/Routing"
 

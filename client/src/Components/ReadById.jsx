@@ -4,7 +4,7 @@ import landingPageImage from "../Assets/landingPageImage.webp";
 import { IoReturnDownBack } from "react-icons/io5";
 
 const ReadById = () => {
-  // Get single Data Function
+
   const [detail, setDetail] = useState();
   const [error, setError] = useState("");
 

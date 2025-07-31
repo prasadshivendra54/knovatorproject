@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 
-// Create Schema
-
-
-// Use Mongoose to define the Job schema:
-
+// Schema
 const jobSchema = new mongoose.Schema(
   {
     title: {
@@ -37,7 +33,7 @@ const jobSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// Create Model
+// Model
 const Job = mongoose.model("Job", jobSchema);
 
 module.exports = Job;

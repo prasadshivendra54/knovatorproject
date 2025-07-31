@@ -40,7 +40,7 @@ README.md # Project Overview & Setup Instructions
   description: String,
   createdAt: { type: Date, default: Date.now }
 }
-🧪 Bonus Functionalities (if implemented)
+🧪 Bonus Functionalities
 
 Loading spinner on data fetch.
 

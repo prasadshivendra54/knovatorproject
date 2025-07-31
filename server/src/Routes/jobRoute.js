@@ -3,15 +3,7 @@ const Job = require('../Models/jobModel')
 
 const router = express.Router()
 
-
-// Create REST APIs:
-// GET /api/jobs – fetch all jobs ✅
-// GET /api/jobs/:id – fetch job by ID  ✅
-// POST /api/jobs – add new job ✅
-
-// Input validation and error handling ❌
-
-// Create API
+// API
 router.post('/api/jobs', async (req, res) =>{
     const {title, company, type, location, description} = req.body
 
@@ -33,7 +25,7 @@ router.post('/api/jobs', async (req, res) =>{
 })
 
 
-// Read or Get API
+// Get API
 router.get('/api/jobs', async (req, res) =>{
     try {
         const getAllJobs = await Job.find()
